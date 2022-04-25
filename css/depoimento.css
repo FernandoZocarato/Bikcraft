@@ -9,6 +9,8 @@
   padding: 40px 40px 80px 80px;
   align-self: end;
   text-align: start;
+  background: url("../img/dec/bottom-right-p.svg") no-repeat bottom 40px right
+    40px;
 }
 
 .depoimento img {
@@ -41,10 +43,17 @@
   content: "”";
 }
 
-.depoimento p::before, .depoimento p::after {
+.depoimento p::before,
+.depoimento p::after {
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

@@ -5,6 +5,7 @@
 @import "./utilidades.css";
 @import "./cores.css";
 @import "./tipografia.css";
+@import "./animacao.css";
 
 /* home */
 @import "./introducao.css";
@@ -23,4 +24,6 @@
 @import "./contato.css";
 @import "./lojas.css";
 @import "./formulario.css";
+@import "./orcamento.css";
+
 
